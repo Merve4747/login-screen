@@ -1,0 +1,151 @@
+table {  
+    width: 80%;
+    border-collapse: collapse;
+    border: solid lightcoral;
+    margin:100px 100px ;
+    
+    
+}
+
+th, tfoot td {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: solid lightcoral;
+    
+    
+}
+
+th {
+    font-family: 'Rock Salt', cursive; 
+    
+}
+
+td {
+    font-family: 'Helvetica Neu', sans-serif;
+    
+}
+
+tbody tr:nth-child(odd){
+    background: #FFB6C1;
+    background-image: url("https://raw.githubusercontent.com/thecodersguilduk/semantic-html-challenge/0cb2d50173711f84d249f73a168ca410f26252ca/assets/noise.png");
+}
+
+tbody tr:nth-child(even) {
+    background: #FF91A4;
+    background-image: url("https://raw.githubusercontent.com/thecodersguilduk/semantic-html-challenge/0cb2d50173711f84d249f73a168ca410f26252ca/assets/noise.png");
+}
+
+thead tr, tfoot tr{
+    background-image: url("https://media.istockphoto.com/vectors/seamless-vector-pale-pink-leopard-pattern-trendy-stylish-wild-leopard-vector-id1152351501?k=20&m=1152351501&s=170667a&w=0&h=Z8oNfmIdhONf0jucybPodwROyJLkxOzldFknp64fW1M=") !important;
+}
+
+footer {
+    text-align: right;
+    font-family: 'Rock Salt', cursive;
+}
+body{
+    background-image: url(https://dijital.ninja/wp-content/uploads/2021/01/pink-green-gradient-1920x1080_c.jpg);
+    background-repeat: no-repeat;
+    background-size: center; 
+    background-position: center;
+}
+#frm {
+	/*border: solid rgb(209, 140, 140) 1px;
+	width: 25;
+	border-radius:5px;*/
+	font-size: 25px;
+	font-family:  "Times New Roman", Times, serif;
+	margin: 250px 500px;
+    
+}
+#btn{
+	color: #fff;
+	background: rgb(78, 157, 180);
+	padding: 5px;
+	margin-left: 40%;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh ;
+}
+
+body label{
+    font-size: 20px;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.erv{
+    width: 500px ;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: 	#ecb3c6;
+    border-radius: 15px;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow:  1px 1px 2px rgb(72, 69, 69), 0 0 25px rgb(215, 77, 77), 0 0 5px rgb(80, 4, 46);
+    font-size: 25px;
+}
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+label{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+button{
+    float: right;
+    background: #555;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+button:hover{
+    opacity: .7;
+}
+.btn1{
+    width: 100px;
+    background-color: rgba(11, 53, 143, 0.73);
+}
+.nur{
+    width: 500px ;
+    height: 500px;
+    border: 3px solid rgb(241, 164, 177) ;
+    padding: 30px;
+    background: 	#ecb3c6;
+    border-radius: 15px;
+    margin: 0 300px;
+}
+h3{
+    text-shadow:  1px 1px 2px rgb(72, 69, 69), 0 0 25px rgb(215, 77, 77), 0 0 5px rgb(80, 4, 46);
+    font-size: 25px;
+    text-align: center;
+}
+.btn2{
+    border-width: 2px;
+}
+.btn3{
+    background-color: lightcoral;
+    margin:30px 460px;
+    position: relative;
+    right: 360px;
+}
+button h6{
+    text-shadow:  2px 4px 2px rgb(12, 10, 10), 3px 0 5px rgb(51, 10, 34);
+    font:18px times;
+
+}
